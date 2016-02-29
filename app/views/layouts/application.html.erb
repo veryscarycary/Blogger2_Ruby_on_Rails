@@ -7,6 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= link_to "Articles", articles_path %>
+  <%= link_to "Tags", tags_path %>
+  <%= link_to "Authors", authors_path %>
   <div id="container">
     <div id="content">
       <%= yield %>
